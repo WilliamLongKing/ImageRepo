@@ -42,3 +42,4 @@ Due to time limitations, I was unable to add in the following features (although
 
 ## Try It Out
 Visit [the demo version](https://williamlongking.github.io/demo/index.html) of the challenge on my website and follow the instructions on the site.
+I've included some of my wallpapers, photographs, and interests - hopefully something piques your interest as well!
