@@ -17,9 +17,9 @@ Each image has a checkbox that can be selected to mark it for deletion. Clicking
 
 ## Backend Processes
 To interact with AWS, three main methods were used: viewAlbum(albumName), addPhoto(albumName), and deletePhoto(albumName, photoKey). These methods were provided by AWS and were modified for the respository.
-###viewAlbum(albumName)
+### viewAlbum(albumName)
 viewAlbum takes in an albumName and makes an httprequest to retrieve all images from the bucket with name albumName, inserting the corresponding HTML code into the gallery.
-###addPhoto(albumName)
+### addPhoto(albumName)
 addPhoto takes the files selected by the user and uses the S3 ManagedUpload class to upload the photos to the bucket with name albumName.
 ### deletePhoto(albumName, photoKey)
 deletePhoto deletes the photo identified by photoKey from the bucket with name albumName, if it exists. The S3 API only deletes images one at a time, so a helper function multiDelete was used to delete multiple images.  
